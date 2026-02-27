@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "height-translate-backend-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-10-15",
+  "vars": {
+    "HTB_GEOID_MODEL": "egm2008-1",
+    "HTB_GEOIDEVAL_BIN": "TileInterpolator",
+    "HTB_R2_TILE_PREFIX": "tiles",
+    "HTB_MAX_BATCH_SIZE": "100",
+    "HTB_GEOID_TILE_CACHE_SIZE": "512",
+    "HTB_CORS_ALLOW_ORIGINS": "*"
+  },
+  "r2_buckets": [
+    {
+      "binding": "TILES_BUCKET",
+      "bucket_name": "your-r2-bucket-name",
+      "preview_bucket_name": "your-r2-bucket-name-preview"
+    }
+  ]
+}
