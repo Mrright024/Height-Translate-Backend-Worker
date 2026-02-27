@@ -1,7 +1,8 @@
 # Height-Translate-Backend-Worker
 
-将 `Height-Translate-Backend-Tiled` 迁移到 Cloudflare Workers 的版本。  
-原项目：[`Height-Translate-Backend-Tiled`](https://github.com/Mrright024/Height-Translate-Backend-Tiled)
+将[Height-Translate-Backend-Tiled](https://github.com/Mrright024/Height-Translate-Backend-Tiled)迁移到 Cloudflare Workers 的版本。  
+
+Developed with *Codex*
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Mrright024/Height-Translate-Backend-Worker)
 
